@@ -4,6 +4,7 @@
 	"description": "my dsa journey",
 	"main": "index.js",
 	"scripts": {
+		"push": "bash push.sh",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],

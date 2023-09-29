@@ -1,5 +1,4 @@
 import sys
-import json
 import pprint
 
 infile = open("input.txt", "r")
