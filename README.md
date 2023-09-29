@@ -52,8 +52,9 @@ G H 2
 <details>
 <summary>14. Longest Common Prefix</summary>
 
--   List sorting gives lexicographical order, so now you only need to find common between first and last strings -- that will be the common prefix for all strings
--   Time complexity: O(nlogn) (sorting) + 2\*O(m) (finding prefix), where n is the total number of strings and m is the maximum length of the string among all the strings in the list
+-   We just need to find 2 strings -- lexicographically smallest and lexicographically largest
+-   Then, we only need to find common between these 2 strings -- that will be the common prefix for all strings
+-   Time complexity: O(n) (array traversal) + O(m) (finding prefix), where n is the total number of strings and m is the maximum length of the string among all the strings in the list
 -   Links: [Leetcode](https://leetcode.com/problems/longest-common-prefix/description/), [Code](/leetcode/0014.py)
 
 </details>
