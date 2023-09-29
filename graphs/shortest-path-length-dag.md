@@ -1,16 +1,3 @@
-# My DSA Journey
-
-## How to run code?
-
-1. Clone this repo + open in terminal
-2. Write `Sample Input` in `input.txt` and `Sample Output` in `output.txt`
-3. Open the `.py` file in the VSCode window
-4. Click on run button on top-right corner of the window
-
-> Note: Do not cd into nested folders, instead run .py directly from main folder -- because the input and output are fetched from main folder's input.txt and output.txt files.
-
-## Graphs
-
 <details>
 <summary>Shortest Path Length in Directed Acyclic Graph (DAG) using Dijkstra's Algorithm </summary>
 
