@@ -11,6 +11,8 @@
 
 ## Graphs
 
+[//]: # "Shortest Path Length in Directed Acyclic Graph (DAG) using Dijkstra's Algorithm"
+
 <details>
 <summary>Shortest Path Length in Directed Acyclic Graph (DAG) using Dijkstra's Algorithm </summary>
 
@@ -46,3 +48,5 @@ G H 2
 </details>
 
 </details>
+
+[//]: # "Shortest Path Length in Directed Acyclic Graph (DAG) using Dijkstra's Algorithm"
