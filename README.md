@@ -46,3 +46,14 @@ G H 2
 </details>
 
 </details>
+
+## Leetcode
+
+<details>
+<summary>Remove Outermost Parentheses</summary>
+
+-   Simple string iteration
+-   Linear time complexity, O(n) where n is the length of input string
+-   Links: [Leetcode](https://leetcode.com/problems/remove-outermost-parentheses/), [Code](/leetcode/1021.py)
+
+</details>
