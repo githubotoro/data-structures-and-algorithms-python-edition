@@ -14,9 +14,9 @@
 <details>
 <summary>Cycle Detection Algorithm using DFS</summary>
 
--   We use DFS and maintain two hash sets visited + cycle.
+-   We use DFS and maintain two hash sets visited + cycle
 -   Time Complexity -- O(V + E), same as that of DFS traversal
--   Links: [Youtube](https://www.youtube.com/watch?v=TXkDpqjDMHA), [Code](./graphs/cycle-detection.py)
+-   Links: [Code](./graphs/cycle-detection.py)
 
 <details><summary>Sample Input</summary>
 
@@ -97,6 +97,15 @@ G H 2
 -   At the end in else statement, store s1 char in cache1 and s2 char in cache2
 -   Linear time complexity, O(n) where n is the length of input string
 -   Links: [Leetcode](https://leetcode.com/problems/isomorphic-strings/), [Code](/leetcode/0205.py)
+
+</details>
+
+<details>
+<summary>207. Course Schedule</summary>
+
+-   Cycle detection algorithm using DFS is used
+-   Time Complexity -- O(V + E), same as that of DFS traversal
+-   Links: [Leetcode](https://leetcode.com/problems/course-schedule/), [Code](/leetcode/0207.py)
 
 </details>
 

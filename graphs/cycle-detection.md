@@ -1,9 +1,9 @@
 <details>
 <summary>Cycle Detection Algorithm using DFS</summary>
 
--   We use DFS and maintain two hash sets visited + cycle.
+-   We use DFS and maintain two hash sets visited + cycle
 -   Time Complexity -- O(V + E), same as that of DFS traversal
--   Links: [Youtube](https://www.youtube.com/watch?v=TXkDpqjDMHA), [Code](./graphs/cycle-detection.py)
+-   Links: [Code](./graphs/cycle-detection.py)
 
 <details><summary>Sample Input</summary>
 
