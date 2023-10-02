@@ -110,6 +110,15 @@ G H 2
 </details>
 
 <details>
+<summary>210. Course Schedule II</summary>
+
+-   Cycle detection algorithm using DFS is used
+-   Time Complexity -- O(V + E), same as that of DFS traversal
+-   Links: [Leetcode](https://leetcode.com/problems/course-schedule-ii/), [Code](/leetcode/0210.py)
+
+</details>
+
+<details>
 <summary>1021. Remove Outermost Parentheses</summary>
 
 -   Simple string iteration
