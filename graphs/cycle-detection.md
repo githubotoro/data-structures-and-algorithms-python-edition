@@ -5,7 +5,7 @@
 -   Time Complexity -- O(V + E), same as that of DFS traversal
 -   Links: [Code](./graphs/cycle-detection.py)
 
-<details><summary>Sample Input</summary>
+#### Sample Input
 
 ```
 0 1
@@ -16,13 +16,10 @@
 3 5
 ```
 
-</details>
-<details> <summary>Sample Output</summary>
+#### Sample Output
 
 ```
 True
 ```
-
-</details>
 
 </details>

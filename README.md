@@ -18,7 +18,7 @@
 -   Time Complexity -- O(V + E), same as that of DFS traversal
 -   Links: [Code](./graphs/cycle-detection.py)
 
-<details><summary>Sample Input</summary>
+#### Sample Input
 
 ```
 0 1
@@ -29,14 +29,11 @@
 3 5
 ```
 
-</details>
-<details> <summary>Sample Output</summary>
+#### Sample Output
 
 ```
 True
 ```
-
-</details>
 
 </details>
 
@@ -47,7 +44,7 @@ True
 -   Linear time complexity, O(V + E)
 -   Links: [Youtube](https://www.youtube.com/watch?v=TXkDpqjDMHA), [Code](./graphs/shortest-path-length-dag.py)
 
-<details><summary>Sample Input</summary>
+#### Sample Input
 
 ```
 A B 3
@@ -65,8 +62,7 @@ F H 1
 G H 2
 ```
 
-</details>
-<details> <summary>Sample Output</summary>
+#### Sample Output
 
 ```
 11
@@ -74,9 +70,16 @@ G H 2
 
 </details>
 
-</details>
-
 ## Leetcode
+
+<details>
+<summary>11. Container With Most Water</summary>
+
+-   Two pointer method -- left, right
+-   Time complexity is: O(n) (array traversal), where n is the length of height array
+-   Links: [Leetcode](https://leetcode.com/problems/container-with-most-water/), [Code](/leetcode/0011.py)
+
+</details>
 
 <details>
 <summary>14. Longest Common Prefix</summary>

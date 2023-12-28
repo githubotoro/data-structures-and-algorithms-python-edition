@@ -5,7 +5,7 @@
 -   Linear time complexity, O(V + E)
 -   Links: [Youtube](https://www.youtube.com/watch?v=TXkDpqjDMHA), [Code](./graphs/shortest-path-length-dag.py)
 
-<details><summary>Sample Input</summary>
+#### Sample Input
 
 ```
 A B 3
@@ -23,13 +23,10 @@ F H 1
 G H 2
 ```
 
-</details>
-<details> <summary>Sample Output</summary>
+#### Sample Output
 
 ```
 11
 ```
-
-</details>
 
 </details>

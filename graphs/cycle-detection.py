@@ -39,7 +39,7 @@ class Solution:
 
         return adj_list
 
-    def dfs(self, adj_list: dict, node: int, visited: set, cycle: set) -> bool:
+    def bfs(self, adj_list: dict, node: int, visited: set, cycle: set) -> bool:
         if node in cycle:
             return True
         elif node in visited:
@@ -49,7 +49,7 @@ class Solution:
         neighbors = adj_list[node]
 
         for neighbor in neighbors:
-            if self.dfs(adj_list, neighbor, visited, cycle):
+            if self.bfs(adj_list, neighbor, visited, cycle):
                 return True
 
         cycle.remove(node)
@@ -61,7 +61,7 @@ class Solution:
         visited, cycle = set(), set()
 
         for node in adj_list.keys():
-            if self.dfs(adj_list, node, visited, cycle):
+            if self.bfs(adj_list, node, visited, cycle):
                 return True
 
         return False
