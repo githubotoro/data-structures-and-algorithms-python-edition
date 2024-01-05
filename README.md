@@ -92,6 +92,17 @@ G H 2
 </details>
 
 <details>
+<summary>121. Best Time to Buy and Sell Stock</summary>
+
+-   Note: We only have to buy & sell once
+-   First, we have 0th index as buy price, initial profit as 0
+-   Then, we try to seel stock, if profit is greater than 0
+-   Now, we update the buy price, if we could have bought the stock at more less price
+-   Links: [Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [Code](/leetcode/0121.py)
+
+</details>
+
+<details>
 <summary>131. Palindrome Partitioning</summary>
 
 -   Links: [Leetcode](https://leetcode.com/problems/palindrome-partitioning/), [Code](/leetcode/0131.py)
